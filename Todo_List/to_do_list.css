@@ -1,0 +1,128 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #2362cc;
+    padding: 10px;
+}
+.todo-class{
+    width: 100%;
+    max-width: 700px;
+    background: #ffffff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo-class h2{
+    color: #152677;
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: 1px solid black;
+    outline: none;
+    margin-right: 10px;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+::placeholder{
+    text-align: center;
+}
+button{
+    border: none;
+    margin: 10px;
+    width: 80px;
+    height: 40px;
+    background: #2362cc;
+    color: aquamarine;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    background: #c5e1e5;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    width: 450px;
+    height: 24px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+ul li.checked{
+    text-decoration: line-through;
+}
+.empty{
+    display: none;
+}
+.sort{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-top: -27px;
+   
+}
+.empty{
+    display: none;
+}
+.reload{
+    margin-right: 0%;
+}
+delete{ 
+    position: absolute;
+    margin-left: 237px;
+    left: 232px;
+    top: 2px;
+    bottom: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    background: #2362cc;
+    background-image: url('https://img.icons8.com/?size=1x&id=1942&format=png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+delete:hover{
+    background: #152677;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+   body, html{
+    display: block;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+   }
+ .container{
+    display: block;
+    width: 100%;
+ }
+ .todo-class, .todo-container, .list-container, #idInput{
+    display: inline-block;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+ }
+  }
