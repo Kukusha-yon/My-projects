@@ -17,7 +17,7 @@ To get started
  # youtube-search
   It is a youtube-search app using react js and API. To get started with the project, follow the instaructions provided in the readme file.
  # note-app
-  It is a note-app using raect js and API. To get started with the project, follow the instaructions provided in the readme file.
+  It is a note-app using raect js. To get started with the project, follow the instaructions provided in the readme file.
  # Troubleshooting 
  If you encounter any issues while working with a specific project, please refer to the project's readme file.
 
