@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# youtube-Search App 
+Welcome to the youtube search App! This application allows you to search fo youtube videos based on specific keywords or topics. 
+# Installation
+1. Clone the repository from GitHub: git clone https://github.com/Kukusha-yon/My-projects/Youtube-Search.git
+2. Go to the project directory: cd note-app
+3. Install the dependencies: npm install 
+4. Start the application: npm start
+# Feature
+ The youtube search offers:
+1. Search Videos: Enter specific keywords or topics to search for releveant Youtube Search videos.
+2. Watch Videos: Click the video thumbnail to watch the selected video
+ 
+# Usage 
+  Once you installed the app follow these stpes to use it:
+  1. Launch the YouTube Search App by running npm start
+  2. on the home screen you will find a search bar where you can eneter keywords or topics related to the videos you want.
+  3. The app will retrieve and display a list of search results based on your query.
+  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Find a Bug?
+If you found an Issue to this project please submit an issue.
+# Developemnt
+  If you like to contribute to the development of the Youtube-Search App, please foloow these steps:
+  1. Fork the repository on GitHub
+  2. Clone your forked repository: git clone https://github.com/Kukusha-yon/My-projects/Youtube-Search.git
+  3. Go to the project directory: cd Youtube-Search-app
+  4. Install the dependencies: npm install
+  5. Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name
+  6. Make changes and test them throughly
+  7. Commit your changes: git commit -m "Add a commit message"
+  8. Push to the branch: git push origin feature/your-feature-name
+  9. Open a pull request on the original repository's GitHub page, describing your changes and their purpose.
+# Known Issues (work in progress)
+  This project is on going. Most the icons do not pass you to the needed links. Related videos will not show you after you clicked the desired video provided. This is comming soon.
+ 
+# Future Improvements
+ - Full functional YouTube Search app.

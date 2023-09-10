@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Weather App 
+Welcome to the weather APP This application provides upto date information for various cities around the world. This readme file will guide you.
+# Installation
+1. Clone the repository from GitHub: git clone https://github.com/Kukusha-yon/My-projects/Weatherapp.git
+2. Go to the project directory: cd Weatherapp
+3. Install the dependencies: npm install 
+4. Start the application: npm start
+# Feature
+ The weather app offers the Current and Forcast for the next four days condition for specifc city located around the world.
+# Usage 
+  Once you installed the app follow these stpes to use it:
+  1. Find a Weather API provider and create an account in which is right for you. Mine is Weatherapi.com you can create an account and provide the  API key in the Weather component file on the fetch link provided.
+  2. Launch the weather App by running npm start
+  3. I used four days to foracast the weather but you can choose for in the days= ?.
+  4. Enter the city name and will display for you the image and the temprature.
+  5. You can also locate the citites that have been alredy searched on the side of the input.
+  # Find a Bug?
+  If you found an Issue to this project please submit an issue.
+   # Developemnt
+  If you like to contribute to the development of the Weather App, please foloow these steps:
+  1. Fork the repository on GitHub
+  2. Clone your forked repository: git clone https://github.com/Kukusha-yon/My-projects/Weatherapp.git
+  3. Go to the project directory: cd Weatherapp
+  4. Install the dependencies: npm install
+  5. Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name
+  6. Make changes and test them throughly
+  7. Commit your changes: git commit -m "Add a commit message"
+  8. Push to the branch: git push origin feature/your-feature-name
+  9. Open a pull request on the original repository's GitHub page, describing your changes and their purpose.
+  # Known Issues (work in progress)
+  This project is on going. The Background change with the temprature scale has not been completed yet. By default is not showing result.This is coming Soon.
+ 
+ # Future Improvements
+ - Integfration with a map API to provide a visual representation
+ - Customizable user interface themes
+ - Support multiple Languages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
